@@ -1,0 +1,16 @@
+{
+    "name": "indra/module-subtraction",
+    "description": "Experiment Package/Module",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Indra\\ModuleSubtraction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Indra Faizal Amri"
+        }
+    ],
+    "require": {}
+}
