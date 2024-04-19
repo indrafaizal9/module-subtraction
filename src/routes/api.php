@@ -4,4 +4,4 @@
 use Illuminate\Support\Facades\Route;
 use Vendor\ModuleSubtraction\Controllers\SubtractionController;
 
-Route::post('/subtract', [SubtractionController::class, 'subtract']);
+Route::get('/subtract', [SubtractionController::class, 'subtract']);

@@ -12,7 +12,7 @@ class SubtractionController extends Controller
     {
         $num1 = $request->input('num1');
         $num2 = $request->input('num2');
-        $result = $num1 - $num2;
+        $sum = $num1 - $num2;
 
         if($num1 == null && $num2 == null){
             $sum = 50;
