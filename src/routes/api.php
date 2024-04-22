@@ -2,7 +2,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Indra\ModuleSubtraction\Http\Controllers\SubtractionController;
+use Indra\ModuleSubtraction\Controllers\SubtractionController;
 
 
 Route::get('/subtract', [SubtractionController::class, 'subtract']);
