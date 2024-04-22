@@ -12,5 +12,15 @@
             "name": "Indra Faizal Amri"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indra\\ModuleSubtraction\\ModuleSubtractionServiceProvider"
+            ],
+            "aliases": {
+                "ModuleSubtraction": "Indra\\ModuleSubtraction\\Facades\\ModuleSubtraction"
+            }
+        }
+    }
 }
