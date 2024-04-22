@@ -18,8 +18,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Indra\\ModuleSubtraction\\ModuleSubtractionServiceProvider"
+                "Indra\\ModuleSubtraction\\Providers\\ModuleSubtractionServiceProvider"
             ]
         }
-    }
+    }    
 }
